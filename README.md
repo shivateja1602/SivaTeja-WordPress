@@ -18,31 +18,31 @@ A clean, modern, and responsive WordPress theme that works both as a static webs
 ## File Structure
 
 ```
-├── index.html              # Static website homepage
-├── style.css              # Main stylesheet (required)
-├── functions.php          # WordPress theme functions (required)
-├── theme.json            # Theme configuration
-├── header.php            # WordPress header template
-├── footer.php            # WordPress footer template
-├── index.php             # WordPress main template
-├── single.php            # Single post template (Elementor compatible)
-├── page.php              # Page template (Elementor compatible)
-├── sidebar.php           # Sidebar template
-├── 404.php               # 404 error page template
+├── index.html             
+├── style.css             
+├── functions.php          
+├── theme.json          
+├── header.php          
+├── footer.php            
+├── index.php            
+├── single.php           
+├── page.php              
+├── sidebar.php          
+├── 404.php             
 ├── parts/
-│   ├── header.html       # HTML header component
-│   └── footer.html       # HTML footer component
+│   ├── header.html      
+│   └── footer.html     
 ├── templates/
-│   ├── index.html        # Static homepage template
-│   ├── singular.html     # Static post template
-│   ├── archive.html      # Static archive template
-│   └── 404.html          # Static 404 template
+│   ├── index.html       
+│   ├── singular.html     
+│   ├── archive.html     
+│   └── 404.html          
 ├── patterns/
-│   └── example.php       # Block patterns
+│   └── example.php      
 ├── styles/
-│   └── example.json      # Style variations
-├── screenshot.png        # Theme screenshot
-└── README.txt           # WordPress theme info
+│   └── example.json      
+├── screenshot.png        
+└── README.txt           
 ```
 
 ## Installation
