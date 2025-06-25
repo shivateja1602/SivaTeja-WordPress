@@ -1,0 +1,8 @@
+{
+    "example": "hero-section",
+    "title": "Hero Section Pattern",
+    "description": "A simple hero section with title and call-to-action",
+    "categories": ["simple-theme", "header"],
+    "keywords": ["hero", "banner", "cta"],
+    "content": "<!-- wp:group {\"align\":\"full\",\"backgroundColor\":\"primary\",\"textColor\":\"white\"} -->\n<div class=\"wp-block-group alignfull has-white-color has-primary-background-color has-text-color has-background\"><!-- wp:heading {\"textAlign\":\"center\",\"level\":1} -->\n<h1 class=\"has-text-align-center\">Welcome to Our Website</h1>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">Create amazing experiences with our simple WordPress theme.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons {\"layout\":{\"type\":\"flex\",\"justifyContent\":\"center\"}} -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"backgroundColor\":\"secondary\"} -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link has-secondary-background-color has-background\">Get Started</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:group -->"
+}

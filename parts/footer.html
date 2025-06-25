@@ -1,0 +1,25 @@
+            </main>
+            
+            <?php get_sidebar(); ?>
+        </div>
+    </div>
+
+    <footer id="colophon" class="site-footer">
+        <div class="container">
+            <?php if (is_active_sidebar('footer-1')) { ?>
+                <div class="footer-widgets">
+                    <?php dynamic_sidebar('footer-1'); ?>
+                </div>
+            <?php } ?>
+            
+            <div class="site-info">
+                <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. 
+                   <?php _e('Powered by WordPress', 'simple-theme'); ?></p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<?php wp_footer(); ?>
+</body>
+</html>
